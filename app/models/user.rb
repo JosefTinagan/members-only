@@ -8,4 +8,5 @@ def create_remember_token
 	self.remember_token = token
 end
 
+has_many :posts
 end
